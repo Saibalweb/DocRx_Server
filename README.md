@@ -68,7 +68,7 @@ Authorization: Bearer your_access_token
 This is not secured routes . You need to register as a doctor to use this app.
 Register as a doctor -
 
-```http
+```
   POST /api/v1/doctor/register
 ```
 **Request Body**
@@ -81,7 +81,7 @@ Register as a doctor -
 ### Login
 ----------
 To Login -
-```http
+```
     POST /api/v1/doctor/login
 ```
 **Request Body**
@@ -93,7 +93,7 @@ To Login -
 ### Complete Registration
 -----
 After login you need to complete your registration . You need to provide your academic details , reg not ,degree etc.
-```http
+```
     POST /api/v1/doctor/complete-details
 ```
 <details>
@@ -114,7 +114,7 @@ After login you need to complete your registration . You need to provide your ac
 ### Add Address
 ------
 Adding address for doctor dispensary 
-```http
+```
     POST /api/v1/doctor/add-address
 ```
 <details>
@@ -136,7 +136,7 @@ Adding address for doctor dispensary
 ### Refresh Token 
 ------------------------
 Refresh token to get new access token
-```http
+```
     POST /api/v1/doctor/refresh-token
 ```
 **Request Body**
@@ -148,7 +148,7 @@ Refresh token to get new access token
 ---------------------------
 Search medicine by name , generic name
 
-```http
+```
   GET /api/v1/medicine/search
 ```
 **Request Params**
@@ -161,7 +161,7 @@ Search medicine by name , generic name
 ### Create Prescription
 ----------------------------
 Create prescription for patient
-```http
+```
     POST /api/v1/patient/prescribe
 ```
 <details>
