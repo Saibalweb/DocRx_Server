@@ -16,6 +16,10 @@ Please Visit - <a href="https://github.com/Saibalweb/DocRx" target="_blank">DocR
 
 DocRx is a mobile application that allows users to create and manage their own medical records.In the fast-paced world of healthcare, the ability to manage prescriptions accurately and efficiently is paramount. Traditional paper-based prescriptions are prone to errors, can be easily lost, and require significant administrative effort. DocRx addresses these challenges by offering a digital solution that enhances the accuracy, accessibility, and security of prescription records.This is a simple API for a medical prescription management system. It allows users to create, read.
 
+## Data Model
+The data model for this application is as follows:
+![DocRx-datamodel](./Readme_Assets/DocRx_DataModel.png)
+
 ## Project Structure
 The folder structure of this app is explained below:
 
