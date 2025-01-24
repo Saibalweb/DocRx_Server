@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "deploy":"rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e 'ssh -i ~/Documents/aws/FirstInstances.pem' . ubuntu@ec2-3-110-174-201.ap-south-1.compute.amazonaws.com:~/docrx"
   },
   "author": "",
   "license": "ISC",
