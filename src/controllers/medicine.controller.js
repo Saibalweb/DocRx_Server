@@ -5,8 +5,6 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 
 const searchMedicineBystring = asyncHandler(async(req,res)=>{
     const {str}= req.query;
-    console.log(str);
-    console.log(str.length);
     if(str.length<3){
         throw new ApiError(400,"Search string must be at least 3 characters long");
     }
