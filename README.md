@@ -20,7 +20,7 @@ DocRx is a mobile application that allows users to create and manage their own m
 
 ## Data Model
 The data model for this application is as follows:
-![DocRx-datamodel](./Readme_Assets/DocRx_DataModel.png)
+![DocRx-datamodel](https://github.com/Saibalweb/DocRx_Server/blob/master/Readme_Assets/DocRx_DataModel.png)
 
 ## Project Structure
 The folder structure of this app is explained below:
