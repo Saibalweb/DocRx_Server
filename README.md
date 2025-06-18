@@ -216,3 +216,4 @@ Create prescription for patient
 | prescribePatient.medicinePrescribed[].otherAdviseOnMedicine | string | No | Additional advice regarding the medicine |
 
 </details>
+git 
