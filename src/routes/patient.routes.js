@@ -6,5 +6,5 @@ const router = Router();
 //secured routes
 router.use(verifyUser);
 router.route('/prescribe').post(prescribePatient);
-router.route('/search-patient').post(searchPatient)
+router.route('/search-patient').get(searchPatient);
 export default router;  //export the router to use in other files

@@ -18,7 +18,7 @@ const patientSchema = new mongoose.Schema({
     gender:{
         type:String,
         required:true,
-        enum:["male","female"]
+        enum:["male","female","other"]
     },
     medicalHistory:{
         chronicDisease:String,

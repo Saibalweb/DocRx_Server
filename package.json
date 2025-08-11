@@ -7,13 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js",
-    "deploy":"rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e 'ssh -i ~/Documents/aws/FirstInstances.pem' . ubuntu@ec2-3-110-174-201.ap-south-1.compute.amazonaws.com:~/docrx"
+    "deploy": "rsync -avz --exclude 'node_modules' --exclude '.git' --exclude '.env' -e 'ssh -i ~/Documents/aws/FirstInstances.pem' . ubuntu@ec2-3-110-174-201.ap-south-1.compute.amazonaws.com:~/docrx"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
